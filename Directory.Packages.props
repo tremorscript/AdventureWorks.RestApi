@@ -1,5 +1,6 @@
 ﻿<Project>
   <ItemGroup>
+    <PackageVersion Include="AutoMapper" Version="14.0.0" />
     <PackageVersion Include="Ardalis.GuardClauses" Version="5.0.0"/>
     <PackageVersion Include="Ardalis.HttpClientTestExtensions" Version="4.2.0"/>
     <PackageVersion Include="Ardalis.ListStartupServices" Version="1.1.4"/>
@@ -58,5 +59,7 @@
     <PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="1.11.0"/>
     <PackageVersion Include="OpenTelemetry.Instrumentation.Runtime" Version="1.11.0"/>
     <PackageVersion Include="Aspire.Hosting.Testing" Version="9.0.0"/>
+    <PackageVersion Include="NetTopologySuite" Version="2.6.0" />
+    <PackageVersion Include="Injectio" Version="5.0.0" />
   </ItemGroup>
 </Project>

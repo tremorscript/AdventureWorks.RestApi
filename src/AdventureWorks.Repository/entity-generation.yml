@@ -46,10 +46,54 @@ model:
     generate: true
     name: '{Entity.Name}CreateModel'
     document: true
+    exclude:
+      entities:
+        - vAdditionalContactInfo
+        - vEmployee
+        - vEmployeeDepartment
+        - vEmployeeDepartmentHistory
+        - vIndividualCustomer
+        - vPersonDemographics
+        - vJobCandidate
+        - vJobCandidateEmployment
+        - vJobCandidateEducation
+        - vProductAndDescription
+        - vProductModelCatalogDescription
+        - vProductModelInstructions
+        - vSalesPerson
+        - vSalesPersonSalesByFiscalYears
+        - vStateProvinceCountryRegion
+        - vStoreWithDemographics
+        - vStoreWithContacts
+        - vStoreWithAddresses
+        - vVendorWithContacts
+        - vVendorWithAddresses
   update:
     generate: true
     name: '{Entity.Name}UpdateModel'
     document: true
+    exclude:
+      entities:
+        - vAdditionalContactInfo
+        - vEmployee
+        - vEmployeeDepartment
+        - vEmployeeDepartmentHistory
+        - vIndividualCustomer
+        - vPersonDemographics
+        - vJobCandidate
+        - vJobCandidateEmployment
+        - vJobCandidateEducation
+        - vProductAndDescription
+        - vProductModelCatalogDescription
+        - vProductModelInstructions
+        - vSalesPerson
+        - vSalesPersonSalesByFiscalYears
+        - vStateProvinceCountryRegion
+        - vStoreWithDemographics
+        - vStoreWithContacts
+        - vStoreWithAddresses
+        - vVendorWithContacts
+        - vVendorWithAddresses
   mapper:
     generate: true
     name: '{Entity.Name}Profile'
